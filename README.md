@@ -24,7 +24,9 @@ This Python project implements a simple face recognition attendance system using
 
 - Python 3.x
 - OpenCV (`cv2`)
-- face_recognition library (`pip install face_recognition`)
+- face_recognition library (`pip install face-recognition`)
+- cmake library (`pip install cmake`)
+- numpy library (`pip install numpy`)
 
 ## Installation
 
@@ -33,11 +35,6 @@ This Python project implements a simple face recognition attendance system using
    ```bash
    git clone https://github.com/your-username/face-recognition-attendance.git
    cd face-recognition-attendance
-   
-## Install the required dependencies:
-
-pip install cmake/numpy/dlib/face-recognition/opencv-python
-
 
 ## Usage
 
