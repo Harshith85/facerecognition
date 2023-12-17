@@ -1,6 +1,4 @@
-Certainly! Below is a simple template for a README file for your Python project. Remember to customize it based on your project's specific details.
 
-```markdown
 # Face Recognition Attendance System
 
 This Python project implements a simple face recognition attendance system using the `face_recognition` library and OpenCV. The system captures video frames, detects faces, recognizes known faces, and logs attendance in a CSV file.
@@ -30,18 +28,16 @@ This Python project implements a simple face recognition attendance system using
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/your-username/face-recognition-attendance.git
    cd face-recognition-attendance
-   ```
+   
+## Install the required dependencies:
 
-2. Install the required dependencies:
+pip install cmake/numpy/dlib/face-recognition/opencv-python
 
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## Usage
 
@@ -71,5 +67,3 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-```
